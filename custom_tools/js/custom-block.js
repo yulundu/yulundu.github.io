@@ -1,5 +1,5 @@
 	//add block
-	//jQuery('.switherHead').append('<div id="swither_block"><a href="#" id="theme_switcher"><span class="switch_icon icon-cog"></span><span class="switch_wrap">Light version</span></a></div>');
+	jQuery('.switherHead').append('<div id="swither_block"><a href="#" id="theme_switcher"><span class="switch_icon icon-cog"></span><span class="switch_wrap">Light version</span></a></div>');
 	jQuery('#swither_block').fadeIn(1000);
 
 
