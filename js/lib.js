@@ -1,9 +1,9 @@
 jQuery(document).ready(function(){
 	//include Custom.JS
-	// jQuery('head').append('<link rel="stylesheet" type="text/css" media="all" href="custom_tools/css/custom.css">');
-	// jQuery('head').append('<link rel="stylesheet" type="text/css" media="all" href="custom_tools/css/colorpicker.css">');
-	// jQuery('head').append('<script type="text/javascript" src="custom_tools/js/colorpicker.js"></script>');
-	// jQuery('head').append('<script type="text/javascript" src="custom_tools/js/custom-block.js"></script>');
+	 //jQuery('head').append('<link rel="stylesheet" type="text/css" media="all" href="custom_tools/css/custom.css">');
+	 //jQuery('head').append('<link rel="stylesheet" type="text/css" media="all" href="custom_tools/css/colorpicker.css">');
+	 //jQuery('head').append('<script type="text/javascript" src="custom_tools/js/colorpicker.js"></script>');
+	 //jQuery('head').append('<script type="text/javascript" src="custom_tools/js/custom-block.js"></script>');
 });
 
 /*global jQuery:false */
@@ -119,7 +119,6 @@ jQuery(document).ready(function(){
 				user_site: user_site,
 				user_msg: user_msg
 			};
-			jQuery.post("include/sendmail.php", data, userSubmitFormResponse, "text");
 		}
 	}
 	
